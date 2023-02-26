@@ -105,9 +105,9 @@ def create_employe_declaration_form(checkedJobOption,checkedLoan,fullname):
     pdf.cell(190,6,"{} {}".format("","Plan 2 Σχέδιο 2 / Planul 2"))
     pdf.ln(10)
 
-    p45_eng="""Please supply your P45 to us by emailing it to gpw@goinggreek.co.uk. If you can’t do it now, please make a note of this for later. If you do not supply your P45, we are required to apply an ‘emergency tax’ code, which may mean you pay more tax than you need to. If there’s any reason why you can’t supply this, please notify us by emailing gpw@goinggreek.co.uk."""
-    p45_other1="""Παρακαλώ δώστε το P45 σας σε εμάς μέσω email στο gpw@goinggreek.co.uk. Εάν δεν μπορείτε να το κάνετε τώρα, σημειώστε το για αργότερα. Εάν δεν παρέχετε το P45 σας, πρέπει να εφαρμόσουμε έναν κωδικό «φόρου έκτακτης ανάγκης», ο οποίος μπορεί να σημαίνει ότι πληρώνετε περισσότερο φόρο από ό, τι χρειάζεστε. Εάν υπάρχει κάποιος λόγος για τον οποίο δεν μπορείτε να το παρέχετε, ενημερώστε μας μέσω email στο gpw@goinggreek.co.uk."""
-    p45_other2="""Vă rugăm să ne furnizați P45-ul dvs. prin e-mail la gpw@goinggreek.co.uk. Dacă nu o puteți face acum, vă rugăm să notați acest lucru pentru mai târziu. Dacă nu furnizați P45, trebuie să aplicăm un cod „impozit de urgență”, ceea ce poate însemna că plătiți mai mult impozit decât trebuie. Dacă există vreun motiv pentru care nu puteți furniza acest lucru, vă rugăm să ne anunțați prin e-mail gpw@goinggreek.co.uk."""
+    p45_eng="""Please supply your P45 to us by emailing it to . If you can’t do it now, please make a note of this for later. If you do not supply your P45, we are required to apply an ‘emergency tax’ code, which may mean you pay more tax than you need to. If there’s any reason why you can’t supply this, please notify us by emailing ."""
+    p45_other1="""Παρακαλώ δώστε το P45 σας σε εμάς μέσω email στο Εάν δεν μπορείτε να το κάνετε τώρα, σημειώστε το για αργότερα. Εάν δεν παρέχετε το P45 σας, πρέπει να εφαρμόσουμε έναν κωδικό «φόρου έκτακτης ανάγκης», ο οποίος μπορεί να σημαίνει ότι πληρώνετε περισσότερο φόρο από ό, τι χρειάζεστε. Εάν υπάρχει κάποιος λόγος για τον οποίο δεν μπορείτε να το παρέχετε, ενημερώστε μας μέσω email στο """
+    p45_other2="""Vă rugăm să ne furnizați P45-ul dvs. prin e-mail la  Dacă nu o puteți face acum, vă rugăm să notați acest lucru pentru mai târziu. Dacă nu furnizați P45, trebuie să aplicăm un cod „impozit de urgență”, ceea ce poate însemna că plătiți mai mult impozit decât trebuie. Dacă există vreun motiv pentru care nu puteți furniza acest lucru, vă rugăm să ne anunțați prin e-mail"""
 
 
 
